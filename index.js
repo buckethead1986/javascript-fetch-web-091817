@@ -14,7 +14,7 @@ const app = "I don't do much.";
 //
 // xhr.send();
 
-const token = "dfdf8a66992d377232eb6402f14fa7721e3c0bf9";
+const token = "";
 fetch("https://api/github.com/repos/jquery/jquery/commits"){
     headers: {
       Authorization: `token ${token}`
